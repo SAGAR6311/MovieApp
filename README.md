@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# MovieApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MovieApp is a dynamic movie listing application built with Expo and React Native. It allows users to browse movies by category, search for movies using keywords, and manage their favorite movies. The app features a custom skeleton UI for loading states and utilizes FlashList for improved performance with infinite scrolling.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Movie Listing by Category**: Browse movies categorized as "Now Playing", "Popular", "Top Rated", and "Upcoming".
+- **Dynamic Search**: Search for movies using dynamic keyword searching.
+- **Custom Skeleton UI**: Enjoy a visually appealing skeleton UI while data is loading.
+- **Infinite Scrolling**: Seamlessly load more movies as you scroll down the list.
+- **Favorites Management**: Mark movies as favorites and view them in a dedicated favorites screen.
+- **Movie Details**: Tap on a movie to view detailed information on a separate screen.
+
+## Getting Started
+
+1. **Install Dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. **Start the App**
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Development
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- The project uses file-based routing for navigation.
+- Customize the app by editing files in the **app** directory.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Learn More
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo Documentation](https://docs.expo.dev/): Explore Expo's features and capabilities.
+- [FlashList Documentation](https://github.com/Shopify/flash-list): Learn about FlashList for high-performance lists.
